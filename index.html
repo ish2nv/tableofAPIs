@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Practice Project</title>
+		<link rel="stylesheet" type="text/css" href="lib/myCSS.css">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+	<header>
+	
+	<h1>API table</h1>
+
+	</header>
+
+<table>
+	<tr>
+		<th>API name</th>
+		<th>API description</th>
+		<th></th>
+
+	</tr>
+<tr>
+		<td>streetNameLookup</td>
+		<td>Returns a list of streets which start with the search term.</td>
+		<td><input type="submit" name="submit" class="btn btn-primary" onclick="streetNameLookup()"></td>
+
+	</tr>
+<tr>
+		<td>findNearByWeather</td>
+		<td>returns a weather station with the most recent weather observation</td>
+		<td><input type="submit" name="submit" class="btn btn-primary" onclick="findNearByWeather()"></td>
+
+	</tr>
+
+<tr>
+		<td>findNearestIntersection</td>
+		<td>Finds the nearest intersection for a given lat/lng pair.</td>
+		<td><input type="submit" name="submit" class="btn btn-primary" onclick="findNearestIntersection()"></td>
+
+	</tr>
+
+</table>
+
+
+<div id = "ourresults">
+<h2>Result</h2>
+
+</div>
+
+
+	<script type="text/javascript" src="lib/myScript.js"></script>
+		<script type="application/javascript" src="lib/jquery-2.2.3.min.js"></script>
+
+</body>
+
+
+</html>
+
+
